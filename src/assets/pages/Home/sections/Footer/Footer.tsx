@@ -29,7 +29,7 @@ const Footer = () => {
           <Grid item>
             <IconButton
               component="a"
-              href="https://github.com/seu-usuario"
+              href="https://github.com/mdanieldantas"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -49,7 +49,7 @@ const Footer = () => {
           <Grid item>
             <IconButton
               component="a"
-              href="mailto:seu-email@example.com"
+              href="mailto:contatomarcosdgomes@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >

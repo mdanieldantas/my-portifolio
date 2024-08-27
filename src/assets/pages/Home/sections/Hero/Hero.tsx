@@ -44,6 +44,11 @@ const Hero = () => {
     document.body.removeChild(link);
   };
 
+  // Função para abrir o cliente de e-mail com um e-mail pré-preenchido
+  const handleEmailClick = () => {
+    window.location.href = "mailto:contatomarcosdgomes@gmail.com";
+  };
+
   // Retorna o JSX que será renderizado
   return (
     <>
@@ -104,7 +109,7 @@ const Hero = () => {
                   display="flex"
                   justifyContent="center"
                 >
-                  <StyledButton onClick={() => console.log("Fale comigo")}>
+                  <StyledButton onClick={handleEmailClick}>
                     <EmailIcon />
                     <Typography>Fale comigo</Typography>
                   </StyledButton>

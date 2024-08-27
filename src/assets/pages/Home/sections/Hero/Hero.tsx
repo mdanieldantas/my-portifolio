@@ -27,12 +27,22 @@ const Hero = () => {
     },
   }));
 
-  // Cria um componente estilizado chamado StyledImg, que é uma imagem com largura de 30% e bordas arredondadas
+  // Cria um componente estilizado chamado StyledImg, que é uma imagem com largura de 75% e bordas arredondadas
   const StyledImg = styled("img")(({ theme }) => ({
     width: "75%",
     borderRadius: "50%",
     border: `1px solid ${theme.palette.primary.contrastText}`,
   }));
+
+  // Função para baixar o arquivo PDF
+  const handleDownloadCV = () => {
+    const link = document.createElement("a");
+    link.href = "/public/danieldantas_cv.pdf"; // Caminho para o arquivo PDF
+    link.download = "danieldantas_cv.pdf"; // Nome do arquivo ao ser baixado
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   // Retorna o JSX que será renderizado
   return (
@@ -81,7 +91,7 @@ const Hero = () => {
                   display="flex"
                   justifyContent="center"
                 >
-                  <StyledButton onClick={() => console.log("Download")}>
+                  <StyledButton onClick={handleDownloadCV}>
                     <DownloadIcon />
                     <Typography>Download CV</Typography>
                   </StyledButton>

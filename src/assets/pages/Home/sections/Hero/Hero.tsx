@@ -81,7 +81,7 @@ const Hero = () => {
                   display="flex"
                   justifyContent="center"
                 >
-                  <StyledButton>
+                  <StyledButton onClick={() => console.log("Download")}>
                     <DownloadIcon />
                     <Typography>Download CV</Typography>
                   </StyledButton>
@@ -94,7 +94,7 @@ const Hero = () => {
                   display="flex"
                   justifyContent="center"
                 >
-                  <StyledButton>
+                  <StyledButton onClick={() => console.log("Fale comigo")}>
                     <EmailIcon />
                     <Typography>Fale comigo</Typography>
                   </StyledButton>

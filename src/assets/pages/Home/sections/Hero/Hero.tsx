@@ -37,7 +37,7 @@ const Hero = () => {
                 <Box position="absolute" width={"150%"} top={-100} right={0}>
                   <AnimatedBackground />
                 </Box>
-                <Box position="absolute" textAlign={"center"}>
+                <Box position="relative" textAlign={"center"}>
                   <StyledImg src={Avatar} />
                 </Box>
               </Box>
@@ -54,6 +54,7 @@ const Hero = () => {
                 color="primary.contrastText"
                 variant="h2"
                 textAlign="center"
+                pb={2}
               >
                 Programador Web
               </Typography>
@@ -63,6 +64,7 @@ const Hero = () => {
                 display={"flex"}
                 justifyContent={"center"}
                 spacing={3}
+                pt={3}
               >
                 <Grid
                   item

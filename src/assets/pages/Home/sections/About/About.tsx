@@ -3,7 +3,7 @@ import { Container, Grid, styled, Typography, Box } from "@mui/material";
 const About = () => {
   const StyledAbout = styled("div")(({ theme }) => ({
     background: "#ffffff",
-    height: "100vh",
+    height: "50%",
     display: "flex",
     alignItems: "center",
     [theme.breakpoints.up("xs")]: {
@@ -43,7 +43,7 @@ const About = () => {
                 width: "100%",
                 height: "2px",
                 backgroundColor: "#000000",
-                marginTop: "16px",
+                marginTop: "40px",
               }}
             />
           </Grid>

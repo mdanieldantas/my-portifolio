@@ -4,7 +4,7 @@ import { AppBar, MenuItem, Toolbar, styled } from "@mui/material";
 // Define o componente NavBar
 const NavBar = () => {
   // Cria um componente estilizado chamado StyledToolbar usando a função styled do Material-UI
-  const StyledToolbar = styled(Toolbar)(({ theme }) => ({
+  const StyledToolbar = styled(Toolbar)(() => ({
     display: "flex", // Define o estilo de exibição como flex (para alinhar os itens horizontalmente)
     justifyContent: "space-evenly", // Define o alinhamento dos itens com espaçamento igual
   }));

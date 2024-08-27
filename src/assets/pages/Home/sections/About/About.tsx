@@ -3,7 +3,7 @@ import { Container, Grid, styled, Typography, Box } from "@mui/material";
 const About = () => {
   const StyledAbout = styled("div")(({ theme }) => ({
     background: "#ffffff",
-    height: "50%",
+    height: "100%",
     display: "flex",
     alignItems: "center",
     [theme.breakpoints.up("xs")]: {

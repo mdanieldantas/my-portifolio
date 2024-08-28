@@ -14,7 +14,7 @@ const About = () => {
     },
   }));
 
-  const StyledText = styled(Typography)(({ theme }) => ({
+  const StyledText = styled(Typography)(({}) => ({
     color: "#000000",
   }));
 

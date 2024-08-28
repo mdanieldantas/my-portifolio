@@ -9,10 +9,18 @@ const Home = () => {
   return (
     <>
       <NaviBar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
+      <div id="hero">
+        <Hero />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="skills">
+        <Skills />
+      </div>
+      <div id="projects">
+        <Projects />
+      </div>
       <Footer />
     </>
   );

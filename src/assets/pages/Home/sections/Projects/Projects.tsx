@@ -6,7 +6,8 @@ import {
   Box,
   Button,
 } from "@mui/material";
-import imageMyportifolioProject from "../../../../images/project-my-portifolio-image.jpg";
+// import imageMyportifolioProject from "../../../../images/project-my-portifolio-image.jpg";
+import imageGithubSearchMobile from "../../../../images/ImgGitSearchMobile1.jpg";
 
 const Projects = () => {
   const StyledProjects = styled("div")(({ theme }) => ({
@@ -54,13 +55,13 @@ const Projects = () => {
               <Grid item xs={12} sm={6} md={4}>
                 <ProjectCard>
                   <StyledText variant="h6" pt={2}>
-                    Projeto 1
+                  Git Profile Search
                   </StyledText>
                   <StyledText variant="body2" pt={1}>
-                    Janeiro 2023
+                    Setembro 2024
                   </StyledText>
                   <img
-                    src={imageMyportifolioProject}
+                    src={imageGithubSearchMobile}
                     alt="Projeto 1"
                     style={{
                       width: "100%",
@@ -68,18 +69,29 @@ const Projects = () => {
                       marginTop: "16px",
                     }}
                   />
-                  <StyledText variant="body1" pt={2}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer nec odio. Praesent libero. Sed cursus ante dapibus
-                    diam.
+                  <StyledText variant="body1" pt={2} >
+                    Git Profile Search é uma aplicação web que permite aos usuários
+                    buscar perfis do GitHub e visualizar informações detalhadas
+                    sobre os usuários e seus repositórios.
                   </StyledText>
                   <StyledText variant="subtitle1" pt={2}>
-                    Tecnologias: JavaScript, React, CSS
+                  React
+Vite - TypeScript - React Router DOM - CSS Modules - GitHub API
                   </StyledText>
-                  <StyledButton>View Project</StyledButton>
-                  <StyledButton>View Code</StyledButton>
+                  <StyledButton 
+  onClick={() => window.open("https://gitprofilesearch.vercel.app", "_blank")}
+>
+  View Project
+</StyledButton>
+
+<StyledButton
+  onClick={() => window.open("https://github.com/mdanieldantas/github-finder", "_blank")}
+>
+  View Code
+</StyledButton>
                 </ProjectCard>
               </Grid>
+
               <Grid item xs={12} sm={6} md={4}>
                 <ProjectCard>
                   <StyledText variant="h6" pt={2}>
@@ -89,7 +101,7 @@ const Projects = () => {
                     Fevereiro 2023
                   </StyledText>
                   <img
-                    src="../../../../images/my-potifolio-image-project.jpg"
+                    src="../../../../images/ImgmobileSiteTela1.jpg"
                     alt="Projeto 2"
                     style={{
                       width: "100%",
@@ -115,6 +127,7 @@ const Projects = () => {
         </Grid>
       </Container>
     </StyledProjects>
+
   );
 };
 

@@ -6,6 +6,7 @@ import DownloadIcon from "@mui/icons-material/Download";
 import EmailIcon from "@mui/icons-material/Email";
 // Importa uma imagem de avatar
 import Avatar from "../../../../images/avatarDanielSemtop.jpg";
+import Logo from "../../../../images/Logodaniel-dantas-dev.png";
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
 
@@ -65,13 +66,14 @@ const Hero = () => {
                 </Box>
               </Box>
             </Grid>
+
             <Grid item xs={12} md={7}>
               <Typography
                 color="primary.contrastText"
                 variant="h1"
                 textAlign="center"
               >
-                M Daniel Dantas
+                {/* Daniel Dantas */}
               </Typography>
               <Typography
                 color="primary.contrastText"
@@ -79,16 +81,29 @@ const Hero = () => {
                 textAlign="center"
                 pb={2}
               >
-                Programador Web
+                {/* Programador Web */}
               </Typography>
 
               <Grid
-                container
-                display={"flex"}
-                justifyContent={"center"}
-                spacing={3}
-                pt={3}
+                container // Define que este Grid é um container que pode conter outros Grids dentro dele
+                display={"flex"} // Define que o display do container será flexível
+                justifyContent={"center"} // Centraliza o conteúdo horizontalmente dentro do container
+                spacing={3} // Define o espaçamento entre os itens do Grid
+                pt={0} // Define o padding-top (espaçamento superior) do container
               >
+                <Grid
+                  item // Define que este Grid é um item dentro de um container Grid
+                  xs={12} // Define que este item ocupará 12 colunas (100% da largura) em telas extra-small (xs) e acima
+                  display="flex" // Define que o display do item será flexível
+                  justifyContent="center" // Centraliza o conteúdo horizontalmente dentro do item
+                >
+                  <img
+                    src={Logo} // Define a fonte da imagem como a variável Logo
+                    alt="Logo Daniel Dantas" // Texto alternativo para a imagem
+                    style={{ width: "65%", marginBottom: "1px", padding: "1px" }} // Define o estilo inline da imagem, com largura de 90% e margem inferior de 1px
+                  />
+                </Grid>
+
                 <Grid
                   item
                   xs={12}

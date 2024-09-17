@@ -79,13 +79,13 @@ const Projects = () => {
 Vite - TypeScript - React Router DOM - CSS Modules - GitHub API
                   </StyledText>
                   <StyledButton 
-  onClick={() => window.open("https://danieldantasdev.vercel.app", "_blank")}
+  onClick={() => window.open("https://gitprofilesearch.vercel.app", "_blank")}
 >
   View Project
 </StyledButton>
 
 <StyledButton
-  onClick={() => window.open("https://github.com/mdanieldantas/github-finder", "_blank")}
+  onClick={() => window.open("https://github.com/mdanieldantas/git_profile_search", "_blank")}
 >
   View Code
 </StyledButton>
@@ -116,7 +116,7 @@ Vite - TypeScript - React Router DOM - CSS Modules - GitHub API
                   React - TypeScript - MaterialUI - Styled Components
                   </StyledText>
                   <StyledButton 
-  onClick={() => window.open("https://gitprofilesearch.vercel.app", "_blank")}
+  onClick={() => window.open("https://danieldantasdev.vercel.app", "_blank")}
 >
   View Project
 </StyledButton>

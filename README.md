@@ -1,50 +1,71 @@
-# React + TypeScript + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My Portfolio é uma aplicação web que exibe informações profissionais, habilidades e projetos do desenvolvedor.
 
-Currently, two official plugins are available:
+- **Veja Online:** https://gitprofilesearch.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Projeto](./src/assets/images/imgMyPortifolioMobile.png)
+![Projeto](./src/assets/images/imgMyPortifolioDesktop.png)
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- 🏠 Página inicial com informações pessoais e profissionais
+- 📄 Seção "Sobre" detalhando experiência e formação
+- 🛠️ Seção "Skills" apresentando habilidades técnicas
+- 💼 Seção "Projetos" mostrando trabalhos realizados
+- 📱 Design responsivo para diferentes dispositivos
 
-- Configure the top-level `parserOptions` property like this:
+## Tecnologias Utilizadas
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- React
+- TypeScript
+- Material-UI
+- Styled Components
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Como Executar o Projeto
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. Clone o repositório:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+    ```bash
+    git clone https://github.com/seu-usuario/my-portfolio.git
+    cd my-portfolio
+    ```
+
+1. Instale as dependências:
+
+    ```bash
+    npm install
+    ```
+
+1. Execute o projeto:
+
+    ```bash
+    npm start
+    ```
+
+1. Abra http://localhost:3000 no seu navegador para ver a aplicação em execução.
+
+## Aprendizados
+
+Este projeto foi uma excelente oportunidade para:
+
+- 🔷 Aprofundar conhecimentos em React e TypeScript
+- 🔷 Praticar o uso de componentes estilizados com Material-UI
+- 🔷 Implementar design responsivo
+- 🔷 Criar uma interface de usuário atraente e profissional
+
+## Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+## Contato
+
+**M Daniel Dantas**
+
+- **LinkedIn:** https://www.linkedin.com/in/mdanieldantas
+- **Email:** contatomarcosdgomes@gmail.com
+- **Link do Projeto:** [Adicione o link do seu repositório aqui]

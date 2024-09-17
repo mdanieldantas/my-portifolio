@@ -6,7 +6,7 @@ import DownloadIcon from "@mui/icons-material/Download";
 import EmailIcon from "@mui/icons-material/Email";
 // Importa uma imagem de avatar
 import Avatar from "../../../../images/avatarDanielSemtop.jpg";
-import Logo from "../../../../images/Logodaniel-dantas-dev.png";
+import Logo from "../../../../images/danieldantas-dev-logo-vetor.svg";
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
 
@@ -57,7 +57,7 @@ const Hero = () => {
         <Container maxWidth="lg">
           <Grid container spacing={2}>
             <Grid item xs={12} md={5}>
-              <Box position="relative">
+              <Box position="relative" mt={2}>
                 <Box position="absolute" width={"150%"} top={-100} right={0}>
                   <AnimatedBackground />
                 </Box>
@@ -67,13 +67,13 @@ const Hero = () => {
               </Box>
             </Grid>
 
-            <Grid item xs={12} md={7}>
-              <Typography
+            <Grid item xs={12} md={7}> 
+              {/* <Typography
                 color="primary.contrastText"
                 variant="h1"
                 textAlign="center"
               >
-                {/* Daniel Dantas */}
+                Daniel Dantas
               </Typography>
               <Typography
                 color="primary.contrastText"
@@ -81,8 +81,8 @@ const Hero = () => {
                 textAlign="center"
                 pb={2}
               >
-                {/* Programador Web */}
-              </Typography>
+                Programador Web
+              </Typography> */}
 
               <Grid
                 container // Define que este Grid é um container que pode conter outros Grids dentro dele
@@ -100,7 +100,7 @@ const Hero = () => {
                   <img
                     src={Logo} // Define a fonte da imagem como a variável Logo
                     alt="Logo Daniel Dantas" // Texto alternativo para a imagem
-                    style={{ width: "65%", marginBottom: "1px", padding: "1px" }} // Define o estilo inline da imagem, com largura de 90% e margem inferior de 1px
+                    style={{ width: "90%", marginBottom: "1px", padding: "1px" }} // Define o estilo inline da imagem, com largura de 90% e margem inferior de 1px
                   />
                 </Grid>
 

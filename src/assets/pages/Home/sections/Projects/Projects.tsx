@@ -6,7 +6,7 @@ import {
   Box,
   Button,
 } from "@mui/material";
-// import imageMyportifolioProject from "../../../../images/project-my-portifolio-image.jpg";
+import imageMyportifolioProject from "../../../../images/project-my-portifolio-image.jpg";
 import imageGithubSearchMobile from "../../../../images/ImgGitSearchMobile1.jpg";
 
 const Projects = () => {
@@ -95,13 +95,13 @@ Vite - TypeScript - React Router DOM - CSS Modules - GitHub API
               <Grid item xs={12} sm={6} md={4}>
                 <ProjectCard>
                   <StyledText variant="h6" pt={2}>
-                    Projeto 2
+                    My Portifolio
                   </StyledText>
                   <StyledText variant="body2" pt={1}>
-                    Fevereiro 2023
+                    Setembro 2024
                   </StyledText>
                   <img
-                    src="../../../../images/ImgmobileSiteTela1.jpg"
+                    src={imageMyportifolioProject}
                     alt="Projeto 2"
                     style={{
                       width: "100%",

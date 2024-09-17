@@ -11,7 +11,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 
 const Footer = () => {
-  const StyledFooter = styled("div")(({ theme }) => ({
+  const StyledFooter = styled("div")(({}) => ({
     background: "#ffffff",
     height: "150px", // Aumenta a altura para acomodar o texto adicional
     display: "flex",

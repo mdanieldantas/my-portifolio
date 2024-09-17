@@ -6,7 +6,7 @@ import {
   Box,
   Button,
 } from "@mui/material";
-import imageMyportifolioProject from "../../../../images/project-my-portifolio-image.jpg";
+import imageMyportifolioProject from "../../../../images/imgMyPortifolioMobile.png";
 import imageGithubSearchMobile from "../../../../images/ImgGitSearchMobile1.jpg";
 
 const Projects = () => {
@@ -79,7 +79,7 @@ const Projects = () => {
 Vite - TypeScript - React Router DOM - CSS Modules - GitHub API
                   </StyledText>
                   <StyledButton 
-  onClick={() => window.open("https://gitprofilesearch.vercel.app", "_blank")}
+  onClick={() => window.open("https://danieldantasdev.vercel.app", "_blank")}
 >
   View Project
 </StyledButton>
@@ -110,15 +110,22 @@ Vite - TypeScript - React Router DOM - CSS Modules - GitHub API
                     }}
                   />
                   <StyledText variant="body1" pt={2}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Integer nec odio. Praesent libero. Sed cursus ante dapibus
-                    diam.
+                  My Portfolio é uma aplicação web que exibe informações profissionais, habilidades e projetos do desenvolvedor..
                   </StyledText>
                   <StyledText variant="subtitle1" pt={2}>
-                    Tecnologias: JavaScript, React, CSS
+                  React - TypeScript - MaterialUI - Styled Components
                   </StyledText>
-                  <StyledButton>View Project</StyledButton>
-                  <StyledButton>View Code</StyledButton>
+                  <StyledButton 
+  onClick={() => window.open("https://gitprofilesearch.vercel.app", "_blank")}
+>
+  View Project
+</StyledButton>
+
+<StyledButton
+  onClick={() => window.open("https://github.com/mdanieldantas/my-portifolio", "_blank")}
+>
+  View Code
+</StyledButton>
                 </ProjectCard>
               </Grid>
               {/* Adicione mais cards de projetos conforme necessário */}

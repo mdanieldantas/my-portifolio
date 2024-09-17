@@ -1,7 +1,7 @@
 import { Container, Grid, styled, Typography, Box } from "@mui/material";
 
 const Skills = () => {
-  const StyledSkills = styled("div")(({ theme }) => ({
+  const StyledSkills = styled("div")(({  }) => ({
     background: "#ffffff",
     height: "50%",
     display: "flex",
@@ -9,11 +9,11 @@ const Skills = () => {
     paddingTop: "50px", // Reduz o espaço superior
   }));
 
-  const StyledText = styled(Typography)(({ theme }) => ({
+  const StyledText = styled(Typography)(({  }) => ({
     color: "#000000",
   }));
 
-  const SkillBox = styled(Box)(({ theme }) => ({
+  const SkillBox = styled(Box)(({  }) => ({
     border: "1px solid #000000",
     borderRadius: "4px",
     padding: "8px", // Diminui o padding

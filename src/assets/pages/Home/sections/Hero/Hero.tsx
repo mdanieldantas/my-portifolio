@@ -36,13 +36,17 @@ const Hero = () => {
   }));
 
   // Função para baixar o arquivo PDF
+  // const handleDownloadCV = () => {
+  //   const link = document.createElement("a");
+  //   link.href = "https://drive.google.com/file/d/1Z_tqBv6kg4wkDAQHAvY3lcuVSq3rabTt/view?usp=sharing"; // Caminho para o arquivo PDF
+  //   link.download = "danieldantas_cv.pdf"; // Nome do arquivo ao ser baixado
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  // };
+
   const handleDownloadCV = () => {
-    const link = document.createElement("a");
-    link.href = "https://drive.google.com/file/d/1Z_tqBv6kg4wkDAQHAvY3lcuVSq3rabTt/view?usp=sharing"; // Caminho para o arquivo PDF
-    link.download = "danieldantas_cv.pdf"; // Nome do arquivo ao ser baixado
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    window.open("https://drive.google.com/file/d/1Z_tqBv6kg4wkDAQHAvY3lcuVSq3rabTt/view?usp=sharing", "_blank");
   };
 
   // Função para abrir o cliente de e-mail com um e-mail pré-preenchido

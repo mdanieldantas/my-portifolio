@@ -23,7 +23,7 @@ const About = () => {
       <Container maxWidth="lg">
         <Grid container spacing={2}>
           <Grid item xs={12}>
-            <StyledText variant="h2" textAlign="center" pb={2}>
+            <StyledText variant="h2" textAlign="center" mt={10} pb={2}>
               Sobre Mim
             </StyledText>
             <StyledText variant="body1" textAlign="center" pb={2}>

@@ -20,6 +20,7 @@ const NavBar = () => {
           <MenuItem onClick={() => handleScroll("about")}>Sobre</MenuItem>
           <MenuItem onClick={() => handleScroll("skills")}>Skills</MenuItem>
           <MenuItem onClick={() => handleScroll("projects")}>Projetos</MenuItem>
+          <MenuItem onClick={() => handleScroll("footer")}>Contato</MenuItem>
         </StyledToolbar>
       </AppBar>
     </>

@@ -22,8 +22,15 @@ const Footer = () => {
     paddingBottom: "20px",
   }));
 
+  const StyledText = styled(Typography)(({  }) => ({
+    color: "#000000",
+  }));
+
   return (
-    <StyledFooter>
+    <StyledFooter id="footer">
+<StyledText variant="h4" textAlign="center"  mt={4} mb={1}>
+  Links de Contato
+</StyledText>
       <Container maxWidth="lg">
         <Grid container spacing={2} justifyContent="center">
           <Grid item>

@@ -7,6 +7,7 @@ const Skills = () => {
     display: "flex",
     alignItems: "center",
     paddingTop: "50px", // Reduz o espaço superior
+    paddingBottom: "50px",
   }));
 
   const StyledText = styled(Typography)(({  }) => ({
@@ -16,17 +17,17 @@ const Skills = () => {
   const SkillBox = styled(Box)(({  }) => ({
     border: "1px solid #000000",
     borderRadius: "4px",
-    padding: "8px", // Diminui o padding
+    padding: "10px", // Diminui o padding
     textAlign: "center",
     marginBottom: "16px",
   }));
 
   return (
-    <StyledSkills>
-      <Container maxWidth="lg">
+    <StyledSkills id="skills">
+      <Container maxWidth="lg" >
         <Grid container spacing={2}>
           <Grid item xs={12}>
-            <StyledText variant="h2" textAlign="center" pb={2}>
+            <StyledText variant="h2" textAlign="center"  pb={2}>
               Skills
             </StyledText>
             <Grid container spacing={2} justifyContent="center">

@@ -68,4 +68,4 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 
 - **LinkedIn:** https://www.linkedin.com/in/mdanieldantas
 - **Email:** contatomarcosdgomes@gmail.com
-- **Link do Projeto:** [https://github.com/mdanieldantas/game-characters]
+- **Link do Projeto:** https://github.com/mdanieldantas/my-portifolio

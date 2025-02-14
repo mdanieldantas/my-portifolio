@@ -46,7 +46,7 @@ const Hero = () => {
   // };
 
   const handleDownloadCV = () => {
-    window.open("https://drive.google.com/file/d/1Z_tqBv6kg4wkDAQHAvY3lcuVSq3rabTt/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1SgMDEzmgXCuWDVL0z5YThY0v5bw8UYeu/view?usp=sharing", "_blank");
   };
 
   // Função para abrir o cliente de e-mail com um e-mail pré-preenchido

@@ -27,16 +27,15 @@ const About = () => {
               Sobre Mim
             </StyledText>
             <StyledText variant="body1" textAlign="center" pb={2}>
-              Estudante de Análise e Desenvolvimento de Sistemas, com formação
-              complementar em Psicologia. Possuo uma base sólida em
+              Estudante de Análise e Desenvolvimento de Sistemas na Universidade de Fortaleza, 
+              com formação em Desenvolvimento Web Full Stack pela Digital College 
+              e graduação em Psicologia. Possuo uma base sólida em
               desenvolvimento web e um perfil versátil, capaz de se adaptar a
               diferentes desafios. Minhas habilidades incluem programação
               (JavaScript, React, Node.JS), versionamento de código (GitHub) e
               gestão de bancos de dados. A experiência em Psicologia me
               proporcionou um olhar humanizado para a tecnologia, permitindo
               desenvolver soluções que atendam às necessidades dos usuários.
-              Busco um estágio para aplicar meus conhecimentos e desenvolver
-              minhas habilidades em um ambiente dinâmico e desafiador.
             </StyledText>
             <Box
               sx={{

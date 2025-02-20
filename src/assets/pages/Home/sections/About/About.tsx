@@ -46,7 +46,7 @@ const About = () => {
               }}
             />
           </Grid>
-        </Grid>
+        </Grid> 
       </Container>
     </StyledAbout>
   );

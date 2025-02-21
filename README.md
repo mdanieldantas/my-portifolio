@@ -69,3 +69,4 @@ Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes
 - **LinkedIn:** https://www.linkedin.com/in/mdanieldantas
 - **Email:** contatomarcosdgomes@gmail.com
 - **Visite meu Portifólio:** https://github.com/mdanieldantas/my-portifolio
+- **Currículo:** [Baixar Currículo](https://docs.google.com/document/d/1_FpPYPXiifH1B3BDWnJuNk05DQfddCOBqFxyT6Citg4/edit?usp=sharing)

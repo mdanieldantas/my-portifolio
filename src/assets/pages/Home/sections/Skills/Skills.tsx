@@ -1,7 +1,7 @@
 import { Container, Grid, styled, Typography, Box } from "@mui/material";
 
 const Skills = () => {
-  const StyledSkills = styled("div")(({  }) => ({
+  const StyledSkills = styled("div")(({}) => ({
     background: "#ffffff",
     height: "50%",
     display: "flex",
@@ -10,11 +10,11 @@ const Skills = () => {
     paddingBottom: "50px",
   }));
 
-  const StyledText = styled(Typography)(({  }) => ({
+  const StyledText = styled(Typography)(({}) => ({
     color: "#000000",
   }));
 
-  const SkillBox = styled(Box)(({  }) => ({
+  const SkillBox = styled(Box)(({}) => ({
     border: "1px solid #000000",
     borderRadius: "4px",
     padding: "10px", // Diminui o padding
@@ -24,10 +24,10 @@ const Skills = () => {
 
   return (
     <StyledSkills id="skills">
-      <Container maxWidth="lg" >
+      <Container maxWidth="lg">
         <Grid container spacing={2}>
           <Grid item xs={12}>
-            <StyledText variant="h2" textAlign="center"  pb={2}>
+            <StyledText variant="h2" textAlign="center" pb={2}>
               Skills
             </StyledText>
             <Grid container spacing={2} justifyContent="center">
@@ -53,9 +53,7 @@ const Skills = () => {
               </Grid>
               <Grid item xs={12} sm={6}>
                 <SkillBox>
-                  <StyledText variant="body1">
-                    Gestão de Bancos de Dados
-                  </StyledText>
+                  <StyledText variant="body1">Database Management</StyledText>
                 </SkillBox>
               </Grid>
             </Grid>

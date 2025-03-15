@@ -29,7 +29,7 @@ const Footer = () => {
   return (
     <StyledFooter id="footer">
 <StyledText variant="h4" textAlign="center"  mt={4} mb={1}>
-  Links de Contato
+Contact links
 </StyledText>
       <Container maxWidth="lg">
         <Grid container spacing={2} justifyContent="center">

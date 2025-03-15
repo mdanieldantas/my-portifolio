@@ -17,10 +17,10 @@ const NavBar = () => {
     <>
       <AppBar position="absolute">
         <StyledToolbar>
-          <MenuItem onClick={() => handleScroll("about")}>Sobre</MenuItem>
+          <MenuItem onClick={() => handleScroll("about")}>About</MenuItem>
           <MenuItem onClick={() => handleScroll("skills")}>Skills</MenuItem>
-          <MenuItem onClick={() => handleScroll("projects")}>Projetos</MenuItem>
-          <MenuItem onClick={() => handleScroll("footer")}>Contato</MenuItem>
+          <MenuItem onClick={() => handleScroll("projects")}>Projects</MenuItem>
+          <MenuItem onClick={() => handleScroll("footer")}>Contact</MenuItem>
         </StyledToolbar>
       </AppBar>
     </>

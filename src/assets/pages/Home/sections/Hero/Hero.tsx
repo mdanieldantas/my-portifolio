@@ -130,7 +130,7 @@ const Hero = () => {
                 >
                   <StyledButton onClick={handleEmailClick}>
                     <EmailIcon />
-                    <Typography>Fale comigo</Typography>
+                    <Typography>Talk to me</Typography>
                   </StyledButton>
                 </Grid>
               </Grid>

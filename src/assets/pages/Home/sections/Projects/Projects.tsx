@@ -49,13 +49,12 @@ const Projects = () => {
           {" "}
           <Grid item xs={12}>
             <StyledText variant="h2" textAlign="center" pb={2}>
-              Projetos
+              Projects
             </StyledText>
 
             <Grid container spacing={6} justifyContent="">
               {" "}
               {/* Aumenta o espaço horizontal entre os cards */}
-              
               {/* Primeiro card profile search */}
               <Grid item xs={12} sm={6} md={4}>
                 <ProjectCard>
@@ -63,7 +62,7 @@ const Projects = () => {
                     Git Profile Search
                   </StyledText>
                   <StyledText variant="body2" pt={1}>
-                    Setembro 2024
+                    September 2024
                   </StyledText>
                   <img
                     src={imageGithubSearchMobile}
@@ -75,9 +74,9 @@ const Projects = () => {
                     }}
                   />
                   <StyledText variant="body1" pt={2}>
-                    Git Profile Search é uma aplicação web que permite aos
-                    usuários buscar perfis do GitHub e visualizar informações
-                    detalhadas sobre os usuários e seus repositórios.
+                    Git Profile Search is a web application that allows users to
+                    search for GitHub profiles and view detailed information
+                    about users and their repositories.
                   </StyledText>
                   <StyledText variant="subtitle1" pt={2}>
                     React Vite - TypeScript - React Router DOM - CSS Modules -
@@ -113,7 +112,7 @@ const Projects = () => {
                     My Portifolio
                   </StyledText>
                   <StyledText variant="body2" pt={1}>
-                    Setembro 2024
+                    September 2024
                   </StyledText>
                   <img
                     src={imageMyportifolioProject}
@@ -125,8 +124,8 @@ const Projects = () => {
                     }}
                   />
                   <StyledText variant="body1" pt={2}>
-                    My Portfolio é uma aplicação web que exibe informações
-                    profissionais, habilidades e projetos do desenvolvedor..
+                    My Portfolio is a web application that displays the
+                    developer's professional information, skills and projects.
                   </StyledText>
                   <StyledText variant="subtitle1" pt={2}>
                     React - TypeScript - MaterialUI - Styled Components
@@ -158,10 +157,10 @@ const Projects = () => {
               <Grid item xs={12} sm={6} md={4}>
                 <ProjectCard>
                   <StyledText variant="h6" pt={2}>
-                    Avaliação Física Backend
+                    Backend Physical Assessment
                   </StyledText>
                   <StyledText variant="body2" pt={1}>
-                    Novembro 2024
+                    November 2024
                   </StyledText>
                   <img
                     src={avaliacaoFisicaBack}
@@ -173,10 +172,10 @@ const Projects = () => {
                     }}
                   />
                   <StyledText variant="body1" pt={2}>
-                    Avaliação Física Backend é uma aplicação backend para
-                    gerenciar avaliações físicas de usuários, permitindo
-                    operações CRUD (Create, Read, Update, Delete) para gerenciar
-                    usuários e suas avaliações físicas.
+                    Backend Physical Assessment is a backend application for
+                    managing user physical assessments, allowing CRUD (Create,
+                    Read, Update, Delete) operations to manage users and their
+                    physical assessments.
                   </StyledText>
                   <StyledText variant="subtitle1" pt={2}>
                     Node.js - Express - MySQL2 - MariaDB (opcional) - Dotenv -
@@ -208,10 +207,10 @@ const Projects = () => {
               <Grid item xs={12} sm={6} md={4}>
                 <ProjectCard>
                   <StyledText variant="h6" pt={2}>
-                    Biblioteca de Jogos
+                    Games Library
                   </StyledText>
                   <StyledText variant="body2" pt={1}>
-                    Novembro 2024
+                    November 2024
                   </StyledText>
                   <img
                     src={bibliotecaDeJogos}
@@ -223,9 +222,9 @@ const Projects = () => {
                     }}
                   />
                   <StyledText variant="body1" pt={2}>
-                    Biblioteca de Jogos é um aplicativo web desenvolvido com
-                    React que permite gerenciar uma coleção de jogos,
-                    persistindo os dados no local storage do navegador.
+                    Game Library is a web application developed with React that
+                    allows you to manage a collection of games, by persisting
+                    the data in the browser's storage location.
                   </StyledText>
                   <StyledText variant="subtitle1" pt={2}>
                     React - Vite - CSS Modules

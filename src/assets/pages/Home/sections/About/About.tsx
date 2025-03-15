@@ -24,18 +24,18 @@ const About = () => {
         <Grid container spacing={2}>
           <Grid item xs={12}>
             <StyledText variant="h2" textAlign="center" mt={10} pb={2}>
-              Sobre Mim
+              About Me
             </StyledText>
             <StyledText variant="body1" textAlign="center" pb={2}>
-              Estudante de Análise e Desenvolvimento de Sistemas na Universidade de Fortaleza, 
-              com formação em Desenvolvimento Web Full Stack pela Digital College 
-              e graduação em Psicologia. Possuo uma base sólida em
-              desenvolvimento web e um perfil versátil, capaz de se adaptar a
-              diferentes desafios. Minhas habilidades incluem programação
-              (JavaScript, React, Node.JS), versionamento de código (GitHub) e
-              gestão de bancos de dados. A experiência em Psicologia me
-              proporcionou um olhar humanizado para a tecnologia, permitindo
-              desenvolver soluções que atendam às necessidades dos usuários.
+              Systems Analysis and Development student at the Universidade de
+              Fortaleza (Unifor), with a certification in Full Stack Web Development from
+              Digital College and a degree in Psychology. I have a solid
+              foundation in web development and a versatile profile, able to
+              adapt to different challenges. My skills include programming
+              (JavaScript, React, Node.JS), code versioning (GitHub) and
+              database management. My experience in Psychology has given me a
+              humanized view of technology, allowing me to develop solutions
+              that meet users' needs.
             </StyledText>
             <Box
               sx={{
@@ -46,7 +46,7 @@ const About = () => {
               }}
             />
           </Grid>
-        </Grid> 
+        </Grid>
       </Container>
     </StyledAbout>
   );

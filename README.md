@@ -1,72 +1,73 @@
 # My Portfolio
 
-My Portfolio é uma aplicação web que exibe informações profissionais, habilidades e projetos do desenvolvedor.
+My Portfolio is a web application that displays professional information, skills, and projects of the developer.
 
-- **Veja Online:** https://gitprofilesearch.vercel.app
+- **View Online:** https://gitprofilesearch.vercel.app
 
-![Projeto](./src/assets/images/imgMyPortifolioMobile.png)
-![Projeto](./src/assets/images/imgMyPortifolioDesktop.png)
+![Project](./src/assets/images/imgMyPortifolioMobile.png)
+![Project](./src/assets/images/imgMyPortifolioDesktop.png)
 
-## Funcionalidades
+## Features
 
-- 🏠 Página inicial com informações pessoais e profissionais
-- 📄 Seção "Sobre" detalhando experiência e formação
-- 🛠️ Seção "Skills" apresentando habilidades técnicas
-- 💼 Seção "Projetos" mostrando trabalhos realizados
-- 📱 Design responsivo para diferentes dispositivos
+- 🏠 Home page with personal and professional information
+- 📄 "About" section detailing experience and education
+- 🛠️ "Skills" section showcasing technical skills
+- 💼 "Projects" section displaying completed works
+- 📱 Responsive design for different devices
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - React
 - TypeScript
 - Material-UI
 - Styled Components
 
-## Como Executar o Projeto
+## How to Run the Project
 
-1. Clone o repositório:
+1. Clone the repository:
 
     ```bash
-    git clone https://github.com/seu-usuario/my-portfolio.git
+    git clone https://github.com/your-username/my-portfolio.git
     cd my-portfolio
     ```
 
-1. Instale as dependências:
+2. Install dependencies:
 
     ```bash
     npm install
     ```
 
-1. Execute o projeto:
+3. Run the project:
 
     ```bash
     npm start
     ```
 
-1. Abra http://localhost:3000 no seu navegador para ver a aplicação em execução.
+4. Open http://localhost:3000 in your browser to see the application running.
 
-## Aprendizados
+## Learnings
 
-Este projeto foi uma excelente oportunidade para:
+This project was an excellent opportunity to:
 
-- 🔷 Aprofundar conhecimentos em React e TypeScript
-- 🔷 Praticar o uso de componentes estilizados com Material-UI
-- 🔷 Implementar design responsivo
-- 🔷 Criar uma interface de usuário atraente e profissional
+- 🔷 Deepen knowledge in React and TypeScript
+- 🔷 Practice using styled components with Material-UI
+- 🔷 Implement responsive design
+- 🔷 Create an attractive and professional user interface
 
-## Contribuições
+## Contributions
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-## Licença
+## License
 
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
-## Contato
+## Contact
 
 **M Daniel Dantas**
 
 - **LinkedIn:** https://www.linkedin.com/in/mdanieldantas
 - **Email:** contatomarcosdgomes@gmail.com
-- **Visite meu Portifólio:** https://github.com/mdanieldantas/my-portifolio
-- **Currículo:** [Baixar Currículo](https://docs.google.com/document/d/1_FpPYPXiifH1B3BDWnJuNk05DQfddCOBqFxyT6Citg4/edit?usp=sharing)
+- **Visit My Portfolio:** https://github.com/mdanieldantas/my-portifolio
+- **Resume:** [Download Resume](https://docs.google.com/document/d/1_FpPYPXiifH1B3BDWnJuNk05DQfddCOBqFxyT6Citg4/edit?usp=sharing)
+

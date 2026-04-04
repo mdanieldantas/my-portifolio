@@ -27,15 +27,35 @@ const About = () => {
               About Me
             </StyledText>
             <StyledText variant="body1" textAlign="center" pb={2}>
-              Systems Analysis and Development student at the Universidade de
-              Fortaleza (Unifor), with a certification in Full Stack Web Development from
-              Digital College and a degree in Psychology. I have a solid
-              foundation in web development and a versatile profile, able to
-              adapt to different challenges. My skills include programming
-              (JavaScript, React, Node.JS), code versioning (GitHub) and
-              database management. My experience in Psychology has given me a
-              humanized view of technology, allowing me to develop solutions
-              that meet users' needs.
+              I am a Systems Analysis and Development student (UNIFOR) and a
+              technology professional focused on research and practice in
+              Digital Health. My background combines a solid Full Stack
+              technical foundation with 7 years of experience in Clinical
+              Psychology, enabling me to create solutions that connect technical
+              efficiency with human impact. Currently, I am part of the
+              PET-Saúde Digital team (Federal Government/UNIFOR), working in the
+              Technology Solutions area, where I design systems and modernize
+              workflows for the Brazilian public health system (SUS), applying
+              requirements engineering for the migration of legacy records to
+              digital platforms.
+              <br />
+              <br />
+              Key skills:
+              <br />
+              • Full Stack Development: JavaScript, Node.js, and React for
+              scalable applications.
+              <br />
+              • Data Modeling and Persistence: SQL and Prisma ORM.
+              <br />
+              • Engenharia de Software: Aplicação de metodologias ágeis
+              (Scrum/Kanban) e versionamento via Git/GitHub.
+              <br />
+              
+              • Software Engineering: Agile methodologies (Scrum/Kanban) and
+              version control with Git/GitHub.
+              <br />
+              <br />
+            My clinical background brings a human-centered perspective to software development, ensuring that solutions are both technically robust and truly useful for caregivers.
             </StyledText>
             <Box
               sx={{

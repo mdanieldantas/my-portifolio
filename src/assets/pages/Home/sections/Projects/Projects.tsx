@@ -10,6 +10,7 @@ import imageMyportifolioProject from "../../../../images/imgMyPortifolioMobile.p
 import imageGithubSearchMobile from "../../../../images/ImgGitSearchMobile1.jpg";
 import avaliacaoFisicaBack from "../../../../images/avaliacao-fisica-backend2.png";
 import bibliotecaDeJogos from "../../../../images/biblioteca-de-jogos.png";
+import bibliotecaEmprestimosCloud from "../../../../images/ImgBibliotecaUniDesktop.png";;
 
 const Projects = () => {
   const StyledProjects = styled("div")(({ theme }) => ({
@@ -252,6 +253,73 @@ const Projects = () => {
                 </ProjectCard>
               </Grid>
               {/* Adicione mais cards de projetos conforme necessário */}
+              <Grid item xs={12} sm={6} md={4}>
+  <ProjectCard>
+    <StyledText variant="h6" pt={2}>
+      Biblioteca Empréstimos Cloud
+    </StyledText>
+    <StyledText variant="body2" pt={1}>
+      March 2026
+    </StyledText>
+    <img
+      src={bibliotecaEmprestimosCloud}
+      alt="Biblioteca Empréstimos Cloud"
+      style={{
+        width: "100%",
+        borderRadius: "4px",
+        marginTop: "16px",
+      }}
+    />
+    <StyledText variant="body1" pt={2}>
+      Cloud-based book loan system for libraries, featuring user registration, search, reservations, and status tracking. Front-end in React, back-end in Node.js, and PostgreSQL database on Supabase.
+    </StyledText>
+    <StyledText variant="subtitle1" pt={2}>
+      React - Vite - Node.js - Express - PostgreSQL - Supabase - Prisma - Docker - CI/CD - JWT - Swagger
+    </StyledText>
+    <StyledButton
+      onClick={() =>
+        window.open(
+          "https://www.bibliotecauni.space",
+          "_blank"
+        )
+      }
+    >
+      Front-end
+    </StyledButton>
+
+    <StyledButton
+      onClick={() =>
+        window.open(
+          "https://github.com/app-biblioteca-ads-unifor-grupo-35-N697/biblioteca-emprestimos-cloud",
+          "_blank"
+        )
+      }
+    >
+      Code
+    </StyledButton>
+    <StyledButton
+      onClick={() =>
+        window.open(
+          "https://biblioteca-emprestimos-cloud.onrender.com/docs",
+          "_blank"
+        )
+      }
+    >
+      Swagger
+    </StyledButton>
+    <StyledButton
+      onClick={() =>
+        window.open(
+          "https://www.youtube.com/watch?v=g1CK-HNEQSo",
+          "_blank"
+        )
+      }
+    >
+      video presentation
+    </StyledButton>
+  </ProjectCard>
+</Grid>
+{/* Adicione mais cards de projetos conforme necessário */}
             </Grid>
           </Grid>
         </Grid>

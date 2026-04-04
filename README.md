@@ -2,7 +2,7 @@
 
 My Portfolio is a web application that displays professional information, skills, and projects of the developer.
 
-- **View Online:** https://gitprofilesearch.vercel.app
+- **View Online:** https://danieldantasdev.vercel.app/
 
 ![Project](./src/assets/images/imgMyPortifolioMobile.png)
 ![Project](./src/assets/images/imgMyPortifolioDesktop.png)

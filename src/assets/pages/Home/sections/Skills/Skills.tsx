@@ -6,7 +6,7 @@ const Skills = () => {
     height: "50%",
     display: "flex",
     alignItems: "center",
-    paddingTop: "50px", // Reduz o espaço superior
+    paddingTop: "50px",
     paddingBottom: "50px",
   }));
 
@@ -17,10 +17,29 @@ const Skills = () => {
   const SkillBox = styled(Box)(({}) => ({
     border: "1px solid #000000",
     borderRadius: "4px",
-    padding: "10px", // Diminui o padding
+    padding: "10px",
     textAlign: "center",
     marginBottom: "16px",
   }));
+
+  const skills = [
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Express",
+    "PostgreSQL",
+    "Prisma ORM",
+    "Supabase",
+    "SQL",
+    "Docker",
+    "CI/CD · GitHub Actions",
+    "Git · GitHub",
+    "Tailwind CSS",
+    "Vercel · Cloudflare",
+    "Technical SEO · Core Web Vitals",
+  ];
 
   return (
     <StyledSkills id="skills">
@@ -31,31 +50,13 @@ const Skills = () => {
               Skills
             </StyledText>
             <Grid container spacing={2} justifyContent="center">
-              <Grid item xs={12} sm={6}>
-                <SkillBox>
-                  <StyledText variant="body1">JavaScript</StyledText>
-                </SkillBox>
-              </Grid>
-              <Grid item xs={12} sm={6}>
-                <SkillBox>
-                  <StyledText variant="body1">React</StyledText>
-                </SkillBox>
-              </Grid>
-              <Grid item xs={12} sm={6}>
-                <SkillBox>
-                  <StyledText variant="body1">Node.JS</StyledText>
-                </SkillBox>
-              </Grid>
-              <Grid item xs={12} sm={6}>
-                <SkillBox>
-                  <StyledText variant="body1">GitHub</StyledText>
-                </SkillBox>
-              </Grid>
-              <Grid item xs={12} sm={6}>
-                <SkillBox>
-                  <StyledText variant="body1">Database Management</StyledText>
-                </SkillBox>
-              </Grid>
+              {skills.map((skill) => (
+                <Grid item xs={12} sm={6} md={4} key={skill}>
+                  <SkillBox>
+                    <StyledText variant="body1">{skill}</StyledText>
+                  </SkillBox>
+                </Grid>
+              ))}
             </Grid>
           </Grid>
         </Grid>

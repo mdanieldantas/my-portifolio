@@ -26,37 +26,53 @@ const About = () => {
             <StyledText variant="h2" textAlign="center" mt={10} pb={2}>
               About Me
             </StyledText>
+
             <StyledText variant="body1" textAlign="center" pb={2}>
-              I am a Systems Analysis and Development student (UNIFOR) and a
-              technology professional focused on research and practice in
-              Digital Health. My background combines a solid Full Stack
-              technical foundation with 7 years of experience in Clinical
-              Psychology, enabling me to create solutions that connect technical
-              efficiency with human impact. Currently, I am part of the
-              PET-Saúde Digital team (Federal Government/UNIFOR), working in the
-              Technology Solutions area, where I design systems and modernize
-              workflows for the Brazilian public health system (SUS), applying
-              requirements engineering for the migration of legacy records to
-              digital platforms.
+              I build software that impacts real lives.
               <br />
               <br />
-              Key skills:
-              <br />
-              • Full Stack Development: JavaScript, Node.js, and React for
-              scalable applications.
-              <br />
-              • Data Modeling and Persistence: SQL and Prisma ORM.
-              <br />
-              • Engenharia de Software: Aplicação de metodologias ágeis
-              (Scrum/Kanban) e versionamento via Git/GitHub.
-              <br />
-              
-              • Software Engineering: Agile methodologies (Scrum/Kanban) and
-              version control with Git/GitHub.
+              I'm a Full Stack Developer and Clinical Psychologist with 9 years
+              of practice, currently architecting the web digitalization system
+              for the SVO-CE Epidemiology Center (UNIFOR/Federal Government) -
+              centralizing mortality data flow across 179 municipalities in
+              Ceará, Brazil.
               <br />
               <br />
-            My clinical background brings a human-centered perspective to software development, ensuring that solutions are both technically robust and truly useful for caregivers.
+              My edge is the intersection of technology and human behavior.
+              Psychology shaped me into a developer who gathers requirements
+              with real depth, translates clinical and business needs into
+              software logic, and communicates clearly across technical and
+              non-technical teams.
+              <br />
+              <br />
+              What I deliver:
+              <br />
+              → Institutional website (Next.js 15 + TypeScript): score 98-100
+              in Performance and 100 in SEO/Accessibility on PageSpeed Mobile |
+              FCP 0.5s | LCP 0.8s | CLS 0
+              <br />
+              → REST API (Node.js + PostgreSQL + Docker): JWT authentication,
+              CI/CD via GitHub Actions, E2E deploy with custom domain
+              <br />
+              → Cloud library management system in production (Node.js,
+              PostgreSQL, Docker) - live at bibliotecauni.space
+              <br />
+              <br />
+              Stack:
+              <br />
+              JavaScript · TypeScript · Node.js · React · Next.js · Express
+              <br />
+              PostgreSQL · Prisma ORM · Supabase · Docker · GitHub Actions ·
+              CI/CD
+              <br />
+              Tailwind CSS · Vercel · Cloudflare · Technical SEO · Core Web
+              Vitals
+              <br />
+              <br />
+              Based in Fortaleza, Brazil — open to remote, hybrid and on-site
+              opportunities.
             </StyledText>
+
             <Box
               sx={{
                 width: "100%",

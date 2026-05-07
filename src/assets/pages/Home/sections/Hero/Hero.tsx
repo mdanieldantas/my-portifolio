@@ -6,7 +6,7 @@ import DownloadIcon from "@mui/icons-material/Download";
 import EmailIcon from "@mui/icons-material/Email";
 // Importa uma imagem de avatar
 import Avatar from "../../../../images/avatarDanielSemtop.jpg";
-import Logo from "../../../../images/danieldantas-dev-logo-vetor.svg";
+import Logo from "../../../../images/danieldantas-dev-logo-vetor.png";
 import StyledButton from "../../../../components/StyledButton/StyledButton";
 import { AnimatedBackground } from "../../../../components/AnimatedBackground/AnimatedBackground";
 
@@ -20,7 +20,7 @@ const Hero = () => {
     alignItems: "center",
     [theme.breakpoints.up("xs")]: {
       // <= mobile
-      paddingTop: "100px",
+      paddingTop: "40px",
     },
     [theme.breakpoints.up("md")]: {
       // >=mobile
@@ -28,9 +28,9 @@ const Hero = () => {
     },
   }));
 
-  // Cria um componente estilizado chamado StyledImg, que é uma imagem com largura de 75% e bordas arredondadas
+  // Cria um componente estilizado chamado StyledImg, que é uma imagem com largura de 85% e bordas arredondadas
   const StyledImg = styled("img")(({ theme }) => ({
-    width: "75%",
+    width: "85%",
     borderRadius: "50%",
     border: `1px solid ${theme.palette.primary.contrastText}`,
   }));
@@ -71,7 +71,7 @@ const Hero = () => {
               </Box>
             </Grid>
 
-            <Grid item xs={12} md={7}> 
+            <Grid item xs={12} md={7} mt={{ xs: 0, md: -4 }}> 
               {/* <Typography
                 color="primary.contrastText"
                 variant="h1"
@@ -104,7 +104,7 @@ const Hero = () => {
                   <img
                     src={Logo} // Define a fonte da imagem como a variável Logo
                     alt="Logo Daniel Dantas" // Texto alternativo para a imagem
-                    style={{ width: "90%", marginBottom: "1px", padding: "1px" }} // Define o estilo inline da imagem, com largura de 90% e margem inferior de 1px
+                    style={{ width: "85%", maxWidth: "600px", marginBottom: "1px", padding: "0px" }} // Define o estilo inline da imagem, com largura de 70% e máximo de 600px
                   />
                 </Grid>
 
